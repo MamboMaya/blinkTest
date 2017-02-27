@@ -1,6 +1,7 @@
 void setup() {
   // put your setup code here, to run once:
   pinMode(0,OUTPUT);
+  pinMode(2, OUTPUT);
 }
 
 void loop() {
@@ -8,6 +9,10 @@ void loop() {
   digitalWrite(0, HIGH);
   delay(500);
   digitalWrite(0, LOW);
+  delay(500);
+  digitalWrite(2, HIGH);
+  delay(500);
+  digitalWrite(2, LOW);
   delay(500);
 
   
